@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication System</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login System</h2>
+
+        <!-- Registration Form -->
+        <div id="register-form">
+            <h3>Register</h3>
+            <label for="reg-username">Username:</label>
+            <input type="text" id="reg-username" placeholder="Enter username" required>
+            <label for="reg-password">Password:</label>
+            <input type="password" id="reg-password" placeholder="Enter password" required>
+            <button onclick="register()">Register</button>
+            <p id="register-message"></p>
+        </div>
+
+        <!-- Login Form -->
+        <div id="login-form">
+            <h3>Login</h3>
+            <label for="login-username">Username:</label>
+            <input type="text" id="login-username" placeholder="Enter username" required>
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" placeholder="Enter password" required>
+            <button onclick="login()">Login</button>
+            <p id="login-message"></p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
